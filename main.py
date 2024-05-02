@@ -23,7 +23,7 @@ async def search(value: str):
 
 
 @app.get("/wiki/{name}")
-async def search(name: str):
+async def wiki(name: str):
     """To retreive wikipedia page"""
     result = wikilogic(name)
     return {"result": result}
