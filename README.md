@@ -1,4 +1,5 @@
 # Python_Devops
+[![Python package](https://github.com/RamaManohar5/Python_Devops/actions/workflows/devops.yml/badge.svg)](https://github.com/RamaManohar5/Python_Devops/actions/workflows/devops.yml)
 
 1. create a Python Virtual Environment `python3 -m venv /.venv` or `virtualenv ~/.venv`
 2. pull this environment into our configurations
