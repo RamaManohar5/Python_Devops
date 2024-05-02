@@ -1,7 +1,8 @@
 install:
 	#install commands
 	pip install --upgrade pip &&\
-	pip install -r requirements.txt
+	pip install -r requirements.txt &&\
+	python -m textblob.download_corpora
 
 format:
 	#format code
@@ -9,9 +10,6 @@ format:
 lint:
 	#flake8 or #pylint
 	pylint --disable=R,C *.py mylib/*.py
-
-install:
-	python -m textblob.download_corpora
 
 test:
 	#test
