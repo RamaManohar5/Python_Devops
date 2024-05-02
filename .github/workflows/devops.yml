@@ -22,7 +22,7 @@ jobs:
           
       - name: Test with pylint
         run: |
-          #make lint
+          make lint
 
       - name: Test with Pytest
         run: |
